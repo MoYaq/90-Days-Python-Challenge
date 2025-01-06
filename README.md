@@ -32,3 +32,7 @@ ___
 * I’m always open to feedback, suggestions, and collaborative learning! Feel free to:
 * Fork this repository to contribute or explore the code.
 * Reach out and connect with me to share ideas or resources.
+
+## 📬How to Reach Me:
+[![ Email](https://img.shields.io/badge/Email-legendmohammed3585%40gmail.com-red)](mailto:legendmohammed3585@gmail.com)  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Yakubu%20Mohammed-blue)](http://linkedin.com/in/yakubu-mohammed-559470236)
