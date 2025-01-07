@@ -6,13 +6,17 @@ print("Hello, World!")
 
 #2. Basic Arithmetic
 #Addition
-print("2 + 2 =", 2 + 2)
+print("2+2 =",2+2) #solution with problem display
+print(2+2) #solution without problem display
 
 #Multiplication
-print("5 * 3 =", 5 * 3)
+print("5*3 =",5*3) #solution with problem display
+print(5*3) #solution without problem display
 
 #Division
-print("10/2 =", 10/2)
+print("10/2 =",10/2) #solution with problem display
+print(10/2) #solution without problem display
 
 #Subtraction
-print("8-9 =", 8-9)
+print("8-9 =",8-9) #solution with problem display
+print(8-9) #solution without problem display
