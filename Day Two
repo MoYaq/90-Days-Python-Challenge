@@ -13,4 +13,4 @@ BD = 2025 - Age
 
 #Printing user's information
 print(f"Hi, {name}")
-print(f"You are {Age} years old and you were born on the {Age}")
+print(f"You are {Age} years old and you were born on the {BD}")
