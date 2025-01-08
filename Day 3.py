@@ -1,4 +1,4 @@
-# Day 3
+#Day Three
 #Building a simple "qualification checker"
 #A program to ask for users' ages and determine their qualifications for a session of Moyaq CodersHub bootcamp.
 #Things to learn: Using if, elif, and else statements.
