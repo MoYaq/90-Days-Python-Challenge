@@ -1,7 +1,7 @@
 # Day 3
-## Building a simple "qualification checker"
-# A program to ask for users' ages and determine their qualifications for a session of Moyaq CodersHub bootcamp.
-# Things to learn: Using if, elif, and else statements.
+#Building a simple "qualification checker"
+#A program to ask for users' ages and determine their qualifications for a session of Moyaq CodersHub bootcamp.
+#Things to learn: Using if, elif, and else statements.
 
 #1.a) Ask the user for their name
 name = input("What is your name? ")
@@ -13,7 +13,7 @@ age = int(input(f"Hello, {name}! Please enter your age: "))
 if age >= 21: #If the age is 21 or older, the person is qualified for the senior session
     print(f"Congratulations, {name}! You are qualified for the senior session of Moyaq CodersHub boot camp.")
 
-3. # Check qualification for junior session (minimum age 16, but less than 21)
+#3. Check qualification for junior session (minimum age 16, but less than 21)
 elif age >= 16 and age < 21:  # If the age is between 16 and 20, they are qualified for the junior session
     print(f"{name}, you are qualified for the junior session of the Moyaq CodersHub bootcamp.")
 
