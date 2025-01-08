@@ -4,10 +4,10 @@
 #Things to learn: Using if, elif, and else statements.
 
 #1.a) Ask the user for their name
-name = input("What is your name? ")
+name = input("Please, what is your name? ")
 
 #1.b) Ask the user for their age
-age = int(input(f"Hello, {name}! Please enter your age: "))
+age = int(input(f"{name}! Please enter your age: "))
 
 #2. Check qualification for senior session (minimum age 21)
 if age >= 21: #If the age is 21 or older, the person is qualified for the senior session
