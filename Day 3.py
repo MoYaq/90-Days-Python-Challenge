@@ -17,6 +17,12 @@ if age >= 21: #If the age is 21 or older, the person is qualified for the senior
 elif age >= 16 and age < 21:  # If the age is between 16 and 20, they are qualified for the junior session
     print(f"{name}, you are qualified for the junior session of the Moyaq CodersHub bootcamp.")
 
-else: #If the age is below 16, they are not qualified for the boot camp
-    print(f"Sorry, {name}. You are not qualified for the Moyaq CodersHub bootcamp.")
-    print(f"Kiddo! Come back when you are {16 - age} years older. But for now just concentrate on your Pokemon and cartoons😂💔")
+#If the age is below 16, they are not qualified for the boot camp
+else:
+    years_left= 16 - age  #Calculate the years left to be qualified for the bootcamp
+    if years_left == 1:
+        print(f"Sorry, {name}. You are not qualified for the Moyaq CodersHub bootcamp.")
+        print(f"Kiddo! Come back when you are {years_left} year older. But for now, just concentrate on your Pokémon and cartoons😂💔")
+    else:
+        print(f"Sorry, {name}. You are not qualified for the Moyaq CodersHub bootcamp.")
+        print(f"Kiddo! Come back when you are {years_left} years older. But for now, just concentrate on your Pokémon and cartoons😂💔")
