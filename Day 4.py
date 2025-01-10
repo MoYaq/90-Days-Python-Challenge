@@ -1,4 +1,4 @@
-#Day Four
+#Day Four: Loops
 #Project: Building a simple "countdown" program
 #A program to demonstrate the use of both while loops and for loops.
 
