@@ -4,14 +4,14 @@
 
 #Step 1: Define the factorial function
 def factorial(num):
-    """This function calculates the factorial of a given number."""
+
 #Step 2: Handle invalid input (negative numbers)
     if num < 0:
         return "Factorial is not defined for negative numbers."
 
 #Step 3: Handle the special case where number is 0
     elif num == 0:
-        return 1  #By definition, 0! is 1
+        return 1   #0! =1 by definition
 
 #Step 4: Calculate factorial for positive values
     else:
@@ -25,7 +25,7 @@ def factorial(num):
         return result  
 
 #Step 5: Get input from the user
-value = int(input("Enter a number to calculate its factorial:  "))  
+num = int(input("Enter a number to calculate its factorial:  "))  
 
 #Step 6: Call the factorial function and display the result
-print(f"The factorial of {value} is {factorial(value)}.")
+print(f"The factorial of {num} is {factorial(num)}.")
