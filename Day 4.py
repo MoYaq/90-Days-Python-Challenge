@@ -1,5 +1,5 @@
 #Day Four
-#Building a simple "countdown" program
+#Project: Building a simple "countdown" program
 #A program to demonstrate the use of both while loops and for loops.
 
 #1.Using a while loop for the countdown
