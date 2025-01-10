@@ -5,7 +5,7 @@
 #Taking inputs of user’s name and age
 name = input("Please enter your name:    ")
 age = input("Please enter your age:   ")
-Age = int(age) #turning age into an integer
+Age = int(age) #turning converting age string into an integer
 
 #Calculating user's year of birth 
 #Birthdate = BD
