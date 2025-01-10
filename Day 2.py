@@ -1,6 +1,6 @@
-#Day Two
-#Project: Program to greet and tell users their birthdate
-
+#Day Two: Variables and Data Types
+#Project: Create a program that takes user input for their name and age, then prints a greeting with their name and calculates the year they were born.
+#A program to demonstrate the use of variable, data types and type casting (converting between types).
 
 #Taking inputs of user’s name and age
 name = input("Please enter your name:    ")
