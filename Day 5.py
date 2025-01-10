@@ -1,6 +1,6 @@
 #Day 5: Functions
 #Project: Write a function to calculate the factorial of a number
-#This program demonstrates how to define functions, use arguments, return values, and handle edge cases.
+#A program to demonstrate how to define functions, use arguments, return values, and handle edge cases.
 
 #Step 1: Define the factorial function
 def factorial(num):
