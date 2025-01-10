@@ -1,5 +1,6 @@
 #Day One
 #Project: Write a simple Python script that prints "Hello, World!" and the results of basic arithmetic (e.g., 2 + 2, 5 * 3).
+#A program to demonstrate how to print (display) basic text scripts and results of basic arithmetics.
 
 #1. Basic printing /displaying
 print("Hello, World!")
