@@ -1,5 +1,5 @@
 #Day Two
-#Program to greet and tell users their birthdate
+#Project: Program to greet and tell users their birthdate
 
 
 #Taking inputs of user’s name and age
