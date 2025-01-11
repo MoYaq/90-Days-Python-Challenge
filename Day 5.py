@@ -1,4 +1,4 @@
-## Day 5: Functions
+#Day 5: Functions
 
 #Project: Write a function to calculate the factorial of a number
 
