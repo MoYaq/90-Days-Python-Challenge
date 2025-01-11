@@ -85,14 +85,14 @@ filtered_numbers = [num_to_be_filtered for num_to_be_filtered in numbers if num_
 
 list_sum = sum(filtered_numbers) #Sum of non_numbers
 list_count = len(filtered_numbers) #Count of non-zero numbers
-list_avg = list_sum / list_count if list_count > 0 else 0 #Average(avoid division by zero)
+list_avg = list_sum / list_count if list_count > 0 else 0 #Error Handling, to avoid division by zero if list count is equal to 0
 
 print("Sum of non-zero numbers in the list \n=", list_sum)
 print("Count of non-zero numbers in the list \n=", list_count)
 print("Average of non-zero numbers in the list \n=", list_avg)
 
 
-## Addendum:
+#Addendum:
 
 #Because this program is a "sum and average" calculator, the position of the numbers doesn't matter. 
 #Hence, there is no direct need to use the `insert()` method. However, for purpose of knowing how to use it, this is how it is done:
