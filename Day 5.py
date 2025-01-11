@@ -1,5 +1,7 @@
-#Day 5: Functions
+## Day 5: Functions
+
 #Project: Write a function to calculate the factorial of a number
+
 #A program to demonstrate how to define functions, use arguments, return values, and handle edge cases.
 
 #Step 1: Define the factorial function
