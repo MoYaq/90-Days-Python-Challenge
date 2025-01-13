@@ -81,14 +81,17 @@ if __name__ == "__main__":
         print("6. Exit")
         choice = input("\nEnter your choice (1-6): ").strip()
 
+#Option 1: Name of text file to be written
         if choice == "1":
             file_name = input("\nEnter the name of the text file to create or overwrite: ").strip()
             write_to_text_file(file_name, mode="w")
 
+#Option 2: Name of text file to append content
         elif choice == "2":
             file_name = input("\nEnter the name of the text file to append content: ").strip()
             write_to_text_file(file_name, mode="a")
 
+#Option 3: Name of text file to be analyzed
         elif choice == "3":
             file_name = input("\nEnter the name of the text file to analyze: ").strip()
             lines, words = analyze_text_file(file_name)
@@ -97,10 +100,12 @@ if __name__ == "__main__":
                 print(f"Total Lines: {lines}")
                 print(f"Total Words: {words}")
 
+#Option 4: Name of CSV file to be created
         elif choice == "4":
             file_name = input("\nEnter the name of the CSV file to create: ").strip()
             write_to_csv(file_name)
 
+#Option 5: Name of csv file to be analyzed
         elif choice == "5":
             file_name = input("\nEnter the name of the CSV file to analyze: ").strip()
             rows, cells = analyze_csv(file_name)
@@ -109,6 +114,7 @@ if __name__ == "__main__":
                 print(f"Total Rows: {rows}")
                 print(f"Total Cells: {cells}")
 
+#Option 6: Exiting the program
         elif choice == "6":
             print("\nExiting the program. Goodbye!")
             break
