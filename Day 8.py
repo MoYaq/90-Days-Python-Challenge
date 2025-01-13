@@ -7,7 +7,7 @@
 #Step 2: Function to count lines and words
 def count_lines_and_words(file_name):
     try:
-        # Open the file in read mode using 'with' (ensures automatic file closure)
+        #Open the file in read mode using 'with' (ensures automatic file closure)
         with open(file_name, "r") as file:
             content = file.readlines()  # Read all lines into a list
 
