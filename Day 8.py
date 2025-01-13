@@ -14,7 +14,7 @@ def count_lines_and_words(file_name):
 #Count lines
         line_count = len(content)
 
-        # Count words
+#Count words
         word_count = sum(len(line.split()) for line in content)
 
         return line_count, word_count
@@ -29,13 +29,13 @@ def count_lines_and_words(file_name):
 
 #Step 3: Main Program
 if __name__ == "__main__":
-    # Prompt user for the file name
+#Prompt user for the file name
     file_name = input("Enter the name of the text file (with extension, e.g., 'example.txt'): ").strip()
 
-    # Count lines and words in the specified file
+#Count lines and words in the specified file
     lines, words = count_lines_and_words(file_name)
 
-    # Display the results
+#Display the results
     if lines is not None and words is not None:
         print(f"\nFile Analysis:")
         print(f"Total Lines: {lines}")
