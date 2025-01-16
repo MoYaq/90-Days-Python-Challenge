@@ -1,7 +1,5 @@
 #Day 11: Regular Expressions
-
 #Project: Build a program that validates email addresses using regular expressions.
-
 #A project to demonstrate how to use the re library in Python for pattern matching.
 
 #Step 1: Import the regex library
