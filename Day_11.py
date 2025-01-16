@@ -8,7 +8,7 @@ import re
 #Step 2: Define the function to validate email addresses
 def is_valid_email(email):
 
- #Regular expression pattern for a valid email
+#Regular expression pattern for a valid email
     email_pattern = r'^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z]{2,}$'
 
 #Check if the email matches the pattern
