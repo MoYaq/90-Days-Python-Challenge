@@ -1,7 +1,5 @@
 #Day 12: Working with JSON
-
 #Project: A script that reads a JSON file or string and prints out specific values based on user input.
-
 #A project to demonstrate how to parse and create JSON data using Python’s json library.
 
 #Step 1: Import the JSON library 
