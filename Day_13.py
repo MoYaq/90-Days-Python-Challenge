@@ -11,7 +11,7 @@ import requests
 
 #Step 3: Define a function to fetch weather data
 def get_weather(city):
-    api_key = "your_api_key_here" 
+    api_key = "20d100de54e13b67f02ea38203b7b283" 
     base_url = "http://api.openweathermap.org/data/2.5/weather"
 
     params = {
