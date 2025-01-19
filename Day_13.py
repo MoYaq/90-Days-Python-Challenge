@@ -4,7 +4,6 @@
 
 #Step 1: Install the requests library
 #In Replit, install requests by running: pip install requests (if you are coding with your phone)
-pip install requests
 
 #Step 2: Import the library
 import requests
