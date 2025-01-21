@@ -1,5 +1,5 @@
 #Day 16: Web Scraping with BeautifulSoup
-#Project: Scraping News Headlines from a Website
+#Project: Create a program that scrapes a website (e.g., news headlines from a news site) and displays the results.
 #A project to demonstrate how to extract and display website data using BeautifulSoup.
 
 #Step 1: Import required libraries
