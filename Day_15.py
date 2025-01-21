@@ -1,5 +1,5 @@
 #Day 15: Introduction to Networking
-#Project: A Simple TCP Client
+#Project: Write a simple TCP client-server application using Python’s socket module.
 #A project to demonstrate how to create a basic TCP client using Python's socket module.
 
 #Step 1: Import the socket module
