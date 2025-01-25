@@ -2,31 +2,31 @@
 #Project: Create a simple encryption and decryption tool
 #A program to demonstrate AES encryption and decryption
 
-# Step 1: Import the necessary modules
+#Step 1: Import the necessary modules
 from Crypto.Cipher import AES
 from Crypto.Util.Padding import pad, unpad
 import base64
 import os
 
-# Step 2: Generate a random 16-byte key for encryption
+#Step 2: Generate a random 16-byte key for encryption
 def generate_key():
     key = os.urandom(16)  # AES requires a key size of 16, 24, or 32 bytes
     with open("aes_key.key", "wb") as key_file:
         key_file.write(key)
     return key
 
-# Step 3: Load an existing AES key from the file
+#Step 3: Load an existing AES key from the file
 def load_key():
     return open("aes_key.key", "rb").read()
 
-# Step 4: Encrypt a message using AES
+#Step 4: Encrypt a message using AES
 def encrypt_message(message, key):
     cipher = AES.new(key, AES.MODE_CBC)  # Using CBC mode
     iv = cipher.iv  # Initialization vector
     encrypted_message = cipher.encrypt(pad(message.encode(), AES.block_size))
     return base64.b64encode(iv + encrypted_message).decode()
 
-# Step 5: Decrypt an AES-encrypted message
+#Step 5: Decrypt an AES-encrypted message
 def decrypt_message(encrypted_message, key):
     try:
         raw_data = base64.b64decode(encrypted_message)
@@ -38,7 +38,7 @@ def decrypt_message(encrypted_message, key):
     except Exception as e:
         return "Decryption failed! Invalid key or corrupted data."
 
-# Main Program
+#Main Program
 if __name__ == "__main__":
     print("AES Encryption & Decryption Program")
 
@@ -49,11 +49,11 @@ if __name__ == "__main__":
     else:
         key = load_key()
 
-    # Encrypt a message
+#Encrypt a message
     message = input("\nEnter a message to encrypt: ")
     encrypted_text = encrypt_message(message, key)
     print(f"\nEncrypted Message: {encrypted_text}")
 
-    # Decrypt the message
+#Decrypt the message
     decrypted_text = decrypt_message(encrypted_text, key)
     print(f"\nDecrypted Message: {decrypted_text}")
