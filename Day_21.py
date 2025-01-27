@@ -6,7 +6,7 @@
 import os
 import shutil
 
-#Step 2: Get the folder path in Replit
+#Step 2: Get the folder path in Replit (if you are using your phone, if not skip this step)
 def get_folder_path():
     folder_path = os.getcwd()#Gets the current working directory
     print(f"Current Folder Path: {folder_path}")
@@ -35,7 +35,7 @@ def organize_files(folder_path):
     for file in files:
         file_path = os.path.join(folder_path, file)
 
-        # Ensure it's a file and not a directory
+#Ensure it's a file and not a directory
         if os.path.isfile(file_path):
             for category, extensions in categories.items():
                 if any(file.lower().endswith(ext) for ext in extensions):
@@ -46,10 +46,10 @@ def organize_files(folder_path):
 if __name__ == "__main__":
     print("📂 File Organizer Program")
     
-    # Get the folder path inside Replit
+#Get the folder path inside Replit
     folder_path = get_folder_path()
 
-    # Organize the files
+#Organize the files
     organize_files(folder_path)
 
-    print("\n✅ File organization complete!")
+    print("\nFile organization complete!")
